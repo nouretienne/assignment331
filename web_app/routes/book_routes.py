@@ -19,4 +19,4 @@ def list_books_for_humans():
         {"id": 3, "title": "Book 3"},
     ]
 
-    return render_template("books.html", message=)
+    return render_template("books.html", message="Here's some books", books=books)
