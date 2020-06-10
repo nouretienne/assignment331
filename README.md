@@ -15,6 +15,13 @@ cd assignment331
 pipenv install
 """
 
+Migrate the database:
+
+"""sh
+set FLASK_APP=web_app         flask db init
+set FLASK_APP=web_app         flask db migrate
+set FLASK_APP=web_app         flask db upgrade
+
 
 # Usage
 """sh
